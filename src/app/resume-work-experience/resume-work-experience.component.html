@@ -8,15 +8,13 @@
         <div class="w3-container">
           <h5 class="w3-opacity"><b>{{myJob.title}}</b></h5>
           
-          <div *ngIf="myJob.endDate  ; then thenBlock else elseBlock"></div>
+          <div *ngIf="myJob.endDate; then thenBlock else elseBlock"></div>
             <ng-template #thenBlock>
               <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>{{myJob.startDate}} - {{myJob.endDate}}</h6>
             </ng-template>
             <ng-template #elseBlock>
-              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>{{myJob.startDate}}<span class="w3-tag w3-teal w3-round">Current</span></h6>
+              <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>{{myJob.startDate}} - <span class="w3-tag w3-teal w3-round">Current</span></h6>
             </ng-template>
-
-
             <p>{{ myJob.description }}</p>
             <hr>
         </div>
