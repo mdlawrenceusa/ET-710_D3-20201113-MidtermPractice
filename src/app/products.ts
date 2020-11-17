@@ -20,7 +20,7 @@ export const products = [
 export const r1 = {
   "profile":{
   "firstName": "Jane",
-  "lastName": "Smith",
+  "lastName": "Jones",
   "isAlive": true,
   "age": 27,
   "photo": "https://www.w3schools.com/w3images/avatar_hat.jpg",
@@ -81,15 +81,18 @@ export const r1 = {
 	},
   	{
 		"skill": "Angular",
-		"level": "95%"
+		"level": "97%"
 	}
-	],
-
-  },
-  
-  
-  "workExperience": [],
+	],  
+  "workExperience": [
+    {
+	  	"title": "Front End Developer / w3schools.com",
+	  	"startDate": "Jan 2015",
+      "endDate": "Current",
+      "description": ""
+    }],
   "education": []
+}
 }
 
 /*
