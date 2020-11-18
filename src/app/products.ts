@@ -86,9 +86,16 @@ export const r1 = {
 	],  
   "workExperience": [
     {
+	  	"title": "Fullstack Developer / w3schools.com",
+	  	"startDate": "Jun 2017",
+      "endDate": "",
+      "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+    },
+
+    {
 	  	"title": "Front End Developer / w3schools.com",
 	  	"startDate": "Jan 2015",
-      "endDate": "",
+      "endDate": "May 2017",
       "description": "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
     },
     {
@@ -106,7 +113,23 @@ export const r1 = {
     }
     
     ],
-  "education": []
+  "education": [
+    {
+	  	"school": "W3Schools.com",
+	  	"date": "Forever",
+      "degree": "Web Development! All I need to know in one place",
+    },
+    {
+	  	"school": "London Business School",
+	  	"date": "2013 - 2015",
+      "degree": "Master Degree",
+    },
+    {
+	  	"school": "School of Coding",
+	  	"date": "2010 - 2013",
+      "degree": "Bachelor Degree",
+    }
+  ]
 }
 }
 
